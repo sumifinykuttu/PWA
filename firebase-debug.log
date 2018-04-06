@@ -1,0 +1,39 @@
+[debug] [2018-04-06T10:30:13.425Z] ----------------------------------------------------------------------
+[debug] [2018-04-06T10:30:13.429Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sumi_sulai\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-04-06T10:30:13.429Z] CLI Version:   3.18.1
+[debug] [2018-04-06T10:30:13.429Z] Platform:      win32
+[debug] [2018-04-06T10:30:13.429Z] Node Version:  v8.9.1
+[debug] [2018-04-06T10:30:13.430Z] Time:          Fri Apr 06 2018 16:00:13 GMT+0530 (India Standard Time)
+[debug] [2018-04-06T10:30:13.430Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-06T10:30:13.441Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-04-06T10:30:13.442Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\poc\your-first-pwapp-master\your-first-pwapp-master\work
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-04-06T10:30:33.310Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Fri Apr 06 2018 16:00:33 GMT+0530 (India Standard Time)
+[debug] [2018-04-06T10:30:36.178Z] Error: unable to get local issuer certificate
+    at TLSSocket.<anonymous> (_tls_wrap.js:1103:38)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket._finishInit (_tls_wrap.js:637:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:467:38)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
